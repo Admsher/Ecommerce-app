@@ -75,30 +75,19 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'Ecommerce',
-#         'ENFORCE_SCHEMA': False,  # Optional, set to True if you want schema enforcement
-#         'CLIENT': {
-#             'host': 'mongodb://localhost:27017',
-#             # 'username': 'myuser',  # Replace with your MongoDB username if required
-#             # 'password': 'mypassword',  # Replace with your MongoDB password if required
-#             # 'authSource': 'admin',  # The database to authenticate against, replace if different
-#             # 'authMechanism': 'SCRAM-SHA-1'  # The authentication mechanism
-#         }
-#     }
-# }
+#
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ECOM',
+        'NAME': 'your_db',  # Replace with your database name
         'USER': 'root',
-        'PASSWORD': 'Varad2003!',
+        'PASSWORD': 'your_password',  # Replace with your MySQL root password
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
+
+
 
 
 
