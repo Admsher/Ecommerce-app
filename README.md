@@ -27,7 +27,7 @@ This application uses a MySQL database. Follow these steps to set up and connect
    }
 
 
-3.  Apply migrations to set up the database schema :
+3.     Apply migrations to set up the database schema :
        python manage.py makemigrations
         python manage.py migrate
 4. Create a superuser to access the Django admin panel
