@@ -15,7 +15,7 @@ DATABASES = {
 }
 
 
-.0O naviagte to admin panel use http://127.0.0.1:8000/admin
+.To naviagte to admin panel use http://127.0.0.1:8000/admin
 .YOu will have to create a super user to access the admin panel
 .You will have to register users(including superuser) in the Customer model for them to get Customer access
 .A new user who is not registerdcan also access the website
